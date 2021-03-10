@@ -1,10 +1,13 @@
 import React from 'react';
 
+/* Credit Card Icons */
 import Visa from './assets/icons8-visa.svg';
 import Mastercard from './assets/icons8-mastercard.svg';
 import Discover from './assets/icons8-discover.svg';
 import Amex from './assets/icons8-amex.svg';
-import {prefixes} from './prefixes.js';
+
+/* Card Passwords */
+import { prefixes } from './prefixes.js';
 
 const Logo = ({ type, alt, active }) => {
   let imgClass = 'cc-logo';
@@ -149,10 +152,10 @@ class CreditCardForm extends React.Component {
 
     /* A chain like this just seems wrong. */
     if (prevState.cardNumber.length !== this.state.cardNumber.length
-        && this.state.cardNumber.length === this.state.maxLength) {
-          this.setState({
-            valid: this.verifyNumber(),
-          });
+      && this.state.cardNumber.length === this.state.maxLength) {
+      this.setState({
+        valid: this.verifyNumber(),
+      });
     }
   }
 
@@ -183,17 +186,17 @@ class CreditCardForm extends React.Component {
         </div>
         <div className="error">
           <span className=
-            { this.state.valid? 'error valid' : 'error invalid' }>
-              { this.getValidMessage() }
+            {this.state.valid ? 'error valid' : 'error invalid'}>
+            {this.getValidMessage()}
           </span>
         </div>
         <div>
-        <Logo type={Visa} 
+          <Logo type={Visa}
             alt="Visa"
             active={this.state.activeVisa}
           />
-          <Logo type={Mastercard} 
-            alt= "Mastercard"
+          <Logo type={Mastercard}
+            alt="Mastercard"
             active={this.state.activeMastercard}
           />
           <Logo type={Discover}
@@ -218,7 +221,7 @@ function App() {
         <CreditCardForm />
       </div>
       <footer>
-          Credit card icons by <a href="https://icons8.com/">Icons8</a>
+        Credit card icons by <a href="https://icons8.com/">Icons8</a>
       </footer>
     </>
   );
