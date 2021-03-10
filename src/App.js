@@ -23,6 +23,7 @@ const Logo = ({ type, alt, active }) => {
   );
 }
 
+/* Parent Component */
 class CreditCardForm extends React.Component {
   constructor(props) {
     super(props);
@@ -131,6 +132,7 @@ class CreditCardForm extends React.Component {
     }
   }
 
+/* Life Cycle Method */
   componentDidUpdate(prevProps, prevState) {
     if (prevState.cardNumber !== this.state.cardNumber) {
       this.determineType(this.state.cardNumber);
@@ -159,6 +161,7 @@ class CreditCardForm extends React.Component {
     }
   }
 
+  /* Changing Data */
   handleChange = (e) => {
     this.setState({
       cardNumber: e.target.value
@@ -216,7 +219,7 @@ class CreditCardForm extends React.Component {
 function App() {
   return (
     <>
-      <h1 className="header">Credit Card Number Validation</h1>
+      <h1 className="header">Credit Card Validation</h1>
       <div className="cc-form">
         <CreditCardForm />
       </div>
