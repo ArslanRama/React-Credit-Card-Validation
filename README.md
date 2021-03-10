@@ -1,11 +1,5 @@
 # Credit Card Validation
 
-A React component for verifying the potential validity of a credit card number using the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
-
-## Demo
-
-![Demonstration](demo/demo.gif)
-
 ## Features
 
 - Calculates potential validity of credit card number
