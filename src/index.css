@@ -44,16 +44,19 @@ footer a {
   padding: 10px;
   font-size: 125%;
 
-  background: #FF4136;
+  background: #f1908b;
   color: rgb(0, 0, 0);
   border: 0;
 
   flex: 1;
 }
+.reset:hover {
+  background: #ff7636;
+}
 
 @media only screen and (min-device-width: 500px) {
   .cc-form {
-    background: rgba(221, 221, 221, 0.562);
+    background: rgb(10, 0, 0);
     padding: 50px;
     max-width: 400px;
     min-width: 300px;
