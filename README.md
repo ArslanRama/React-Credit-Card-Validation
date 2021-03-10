@@ -1,6 +1,5 @@
 # Credit Card Validation
 
-![GitHub](https://img.shields.io/github/license/riosdcs/react-cc-validation?color=blue)
 
 
 ## Features
@@ -16,15 +15,6 @@
 - Discover
 - American Express
 
-## Setup
-
-```bash
-$ git clone https://github.com/ArslanRama/React-Credit-Card-Validation
-$ cd react-credit-card-validation
-$ npm install
-$ npm start
-```
-
 
 
 ## Contributing
@@ -36,4 +26,3 @@ Contributions are welcomed and encouraged.
 ![GitHub](https://img.shields.io/github/license/riosdcs/react-cc-validation?color=blue)
 
 This project is licensed under the [MIT license](LICENSE).# React-Credit-Card-Validation
-# React-Credit-Card-Validation
