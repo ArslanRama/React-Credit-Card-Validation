@@ -1,5 +1,8 @@
 # Credit Card Validation
 
+![GitHub](https://img.shields.io/github/license/riosdcs/react-cc-validation?color=blue)
+
+
 ## Features
 
 - Calculates potential validity of credit card number
@@ -33,3 +36,4 @@ Contributions are welcomed and encouraged.
 ![GitHub](https://img.shields.io/github/license/riosdcs/react-cc-validation?color=blue)
 
 This project is licensed under the [MIT license](LICENSE).# React-Credit-Card-Validation
+# React-Credit-Card-Validation
