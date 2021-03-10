@@ -1,6 +1,6 @@
 # Credit Card Validation
 
-![Click here for demo](https://goofy-carson-dd3a03.netlify.app/)
+[click here for e a demo](https://goofy-carson-dd3a03.netlify.app/)
 
 ## Features
 
